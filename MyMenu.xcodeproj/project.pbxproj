@@ -7,29 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9837392879C5592C792DEAFC /* libPods-MyMenu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B8E1A8AD074BAE3B85D2994 /* libPods-MyMenu.a */; };
+		9A60064E87B13063FC01B208 /* Pods_MyMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F93CCD08FBF6FC6E753B8094 /* Pods_MyMenu.framework */; };
+		DD57CB4A20CA732F00AF5292 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD57CB4920CA732F00AF5292 /* LoginViewController.swift */; };
 		DD7446E220C883CD00D5C7B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7446E120C883CD00D5C7B3 /* AppDelegate.swift */; };
 		DD7446E720C883CD00D5C7B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7446E520C883CD00D5C7B3 /* Main.storyboard */; };
 		DD7446E920C883CF00D5C7B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD7446E820C883CF00D5C7B3 /* Assets.xcassets */; };
 		DD7446EC20C883CF00D5C7B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7446EA20C883CF00D5C7B3 /* LaunchScreen.storyboard */; };
-		DD7446F420C8843D00D5C7B3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7446F320C8843D00D5C7B3 /* LoginViewController.swift */; };
 		DD7446F620C8851D00D5C7B3 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = DD7446F520C8851D00D5C7B3 /* Podfile */; };
 		DD7446F820C8984700D5C7B3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD7446F720C8984700D5C7B3 /* GoogleService-Info.plist */; };
+		DD847E3120C9D3D800E51C30 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD847E3020C9D3D800E51C30 /* ProfileTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4B8E1A8AD074BAE3B85D2994 /* libPods-MyMenu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyMenu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9541B32D7402C92CE4E5BA0A /* Pods-MyMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMenu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyMenu/Pods-MyMenu.debug.xcconfig"; sourceTree = "<group>"; };
+		DD57CB4920CA732F00AF5292 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		DD7446DE20C883CD00D5C7B3 /* MyMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD7446E120C883CD00D5C7B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD7446E620C883CD00D5C7B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD7446E820C883CF00D5C7B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD7446EB20C883CF00D5C7B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD7446ED20C883CF00D5C7B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD7446F320C8843D00D5C7B3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		DD7446F520C8851D00D5C7B3 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		DD7446F520C8851D00D5C7B3 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DD7446F720C8984700D5C7B3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		DD847E3020C9D3D800E51C30 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
 		E76D49F63DC29F54D843E949 /* Pods-MyMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMenu.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyMenu/Pods-MyMenu.release.xcconfig"; sourceTree = "<group>"; };
+		F93CCD08FBF6FC6E753B8094 /* Pods_MyMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9837392879C5592C792DEAFC /* libPods-MyMenu.a in Frameworks */,
+				9A60064E87B13063FC01B208 /* Pods_MyMenu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,7 +49,7 @@
 		8AF545B671FD236E3B02CF7F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4B8E1A8AD074BAE3B85D2994 /* libPods-MyMenu.a */,
+				F93CCD08FBF6FC6E753B8094 /* Pods_MyMenu.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -83,9 +85,10 @@
 		DD7446E020C883CD00D5C7B3 /* MyMenu */ = {
 			isa = PBXGroup;
 			children = (
-				DD7446E120C883CD00D5C7B3 /* AppDelegate.swift */,
 				DD7446E520C883CD00D5C7B3 /* Main.storyboard */,
-				DD7446F320C8843D00D5C7B3 /* LoginViewController.swift */,
+				DD7446E120C883CD00D5C7B3 /* AppDelegate.swift */,
+				DD847E3020C9D3D800E51C30 /* ProfileTableViewController.swift */,
+				DD57CB4920CA732F00AF5292 /* LoginViewController.swift */,
 				DD7446E820C883CF00D5C7B3 /* Assets.xcassets */,
 				DD7446EA20C883CF00D5C7B3 /* LaunchScreen.storyboard */,
 				DD7446ED20C883CF00D5C7B3 /* Info.plist */,
@@ -106,6 +109,7 @@
 				DD7446DB20C883CD00D5C7B3 /* Frameworks */,
 				DD7446DC20C883CD00D5C7B3 /* Resources */,
 				E08D37EB60B34793AB2162D0 /* [CP] Copy Pods Resources */,
+				ED9B1F8FE98604C9AB25E39F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -190,17 +194,41 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MyMenu/Pods-MyMenu-resources.sh",
-				"${PODS_ROOT}/GTMOAuth2/Source/Touch/GTMOAuth2ViewTouch.xib",
 				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GTMOAuth2ViewTouch.nib",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyMenu/Pods-MyMenu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED9B1F8FE98604C9AB25E39F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyMenu/Pods-MyMenu-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleAPIClientForREST/GoogleAPIClientForREST.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleAPIClientForREST.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyMenu/Pods-MyMenu-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -210,7 +238,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD7446F420C8843D00D5C7B3 /* LoginViewController.swift in Sources */,
+				DD57CB4A20CA732F00AF5292 /* LoginViewController.swift in Sources */,
+				DD847E3120C9D3D800E51C30 /* ProfileTableViewController.swift in Sources */,
 				DD7446E220C883CD00D5C7B3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +303,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -334,6 +364,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -344,6 +375,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
